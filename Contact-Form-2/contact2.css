@@ -1,0 +1,125 @@
+body, html{
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.col-lg-12{
+    padding: 0px 0px;
+}
+#h1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+}
+hr.style-two-2 {
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(252, 252, 252, 0), rgba(252, 252, 252, 0.75), rgba(252, 252, 252, 0));
+    width: 35%;
+}
+#contact-us-text{
+    text-align: center !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgba(252, 252, 252, 1);
+    font-weight: lighter;
+}
+
+/*Contact column-1*/
+
+.contact-dynamic{
+    align-items: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.col-lg-8{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 66.6667%;
+}
+h3{
+    font-size: 1.4rem;
+    line-height: 1.286;
+    text-transform: uppercase;
+    letter-spacing: 0.16rem;
+    margin-top: 5%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    display: flex;
+    flex-direction: column;
+}
+.full-width{
+    margin: 0px 0px 30px;
+    padding: 15px 24px;
+    border: 0px;
+    border-left: 2px solid #fc4f02 !important;
+}
+::placeholder{
+    font-size: 18px;
+    color: rgba(252, 252, 252, 0.4);
+}
+.contact-fill{
+    width: 100%;
+    background: transparent;
+}
+.contact-message{
+    height: 240px !important;
+    background: transparent;
+}
+.btn-primary{
+    height: 48px;
+    width: 120px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #fc4f02;
+    border: 2px solid #fc4f02;
+}
+.btn-primary:hover{
+    border: 2px solid #fc4f02;
+    background: black;
+    transition: 0.2s linear;
+}
+
+
+/*From here col-lg-4*/
+
+
+.tab-full {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    padding-top: 7%;
+    width: 33.3333%;
+    padding-bottom: 100px;
+}
+
+.cinfo p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(252, 252, 252, 0.4);
+}
+
+.cinfo .fa-envelope, .fa-phone-square{
+    color: rgba(252, 252, 252, 0.6);
+}
+
+a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(252, 252, 252, 0.8);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(252, 79, 2);
+    text-decoration: none;
+}

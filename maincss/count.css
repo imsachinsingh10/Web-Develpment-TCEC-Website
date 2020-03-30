@@ -1,0 +1,55 @@
+body, html{
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.middlie{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-image: url(pimg-3-countcss.jpg);
+    min-height: 400px;
+}
+.middlie{
+	position: relative;
+	opacity: 1;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	background-attachment: fixed;
+}
+
+.counting-sec1{
+    padding: 90px 0;
+    width: 100%;
+}
+
+.inner-width1{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.colsm{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.colsm i{
+    font-size: 50px;
+    color: #fff;
+}
+
+.num1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}

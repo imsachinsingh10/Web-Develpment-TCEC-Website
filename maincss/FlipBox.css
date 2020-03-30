@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "montserrat";
+}
+
+body{
+    background: rgb(17, 17, 17);
+}
+
+.middle{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cardl{
+    cursor: pointer;
+    width: 260px;
+    height: 290px;
+}
+
+.front, .back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .3s linear;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.3);
+}
+
+.front .front-header{
+    height: 70%;
+    text-align: center;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+}
+.front .front-header img{
+    width: 100%;
+    height: 100%;
+    
+}
+/*Padding of Text is controlled from here FRONT */
+.front .front-content{
+    color: #fefeff;
+    text-align: start;
+    font-size: 18px;
+    padding-top: 9%;
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-bottom: 7.7%;
+    border: 1px solid rgb(17, 17, 17);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.front{
+    background: #403E3E;
+    transform: perspective(600px) rotateY(0deg);
+}
+.back{
+    background: rgb(17, 17, 17);
+    transform: perspective(600px) rotateY(180deg);
+}
+
+/*Experiment on border of back part*/
+.back{
+    border: 1px solid rgb(252, 79, 2);
+}
+
+.back-content{
+    color: #fefeff;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+.back-content h2{
+    font-weight: 600;
+    color: rgb(252, 79, 2);
+}
+.back-content p{
+    padding-top: 9%;
+    padding-right: 7%;
+    padding-left: 7%;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.sm{
+    margin: 10px 0px;
+}
+/* linkdin Button
+.sm a{
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #fcfcfc;
+    font-size: 12px;
+    transition: 0.4s;
+    border-radius: 50%
+}
+
+.sm a:hover{
+    background: #fefeff;
+    color: rgb(17, 17, 17);
+}
+*/
+.sm .btn{
+    text-decoration: none;
+    width: 90px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 5px;
+    color: rgb(17, 17, 17);
+    background: #fcfcfc;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+
+.sm .btn:hover{
+    color: rgb(252, 79, 2);
+}
+
+
+.cardl:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.cardl:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+}

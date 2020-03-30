@@ -1,0 +1,83 @@
+body, html{
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    /*I have added this to compensate the Footer Background, but you can also use BOOTSTRAP 4*/
+    background: black;
+}
+
+/*Navbar Transparency*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+#navbar{
+    top: -100px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+/*Ends here*/
+.navbar-nav .active{
+    color: rgb(252, 79, 2);
+}
+
+#navbarSupportedContent ul li a {
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+#navbarSupportedContent ul li a:hover{
+    color: #F3BE0F;
+    transition: 0.38s linear;
+}
+
+.pimg1{
+    background-image: url(pimg-1-2.jpg);
+    min-height: 100%;
+}
+/*pimg3 wasn't working here that's why i shifted it to count.css*/
+/*pimg3 is in count.css as a class name of .middlie*/
+
+.pimg1{
+	position: relative;
+    opacity: 1;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	background-attachment: fixed;
+}
+
+#row1{
+    padding-top: 15%;
+    padding-left: 10%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-family: Satisfy;
+}
+
+#row1 .col-lg-6 .display-5 {
+    color: #F3BE0F;
+    margin-top: 25px;
+    padding-top: 3%;
+    font-weight: 700;
+}
+
+#row1 .col-lg-6 .display-5 span{
+    color: #f4f4f4;
+    font-weight: 700;
+}
+
+#row1 .col-lg-6 .display-6{
+    color: #f4f4f4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 17px;
+    padding-left: 2%;
+    padding-right: 50%;
+    letter-spacing: 1.5px;
+}

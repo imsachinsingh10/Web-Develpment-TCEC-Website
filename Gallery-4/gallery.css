@@ -1,0 +1,168 @@
+body, html{
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    /*I have added this to compensate the Footer Background, but you can also use BOOTSTRAP 4*/
+    background: rgb(17, 17, 17);
+}
+/*Navbar Transparency*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+/*Ends here*/
+#active{
+    color: rgb(252, 79, 2);
+}
+
+#navbarSupportedContent ul li a {
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+#navbarSupportedContent ul li a:hover{
+    color: rgb(252, 79, 2);
+    transition: 0.38s linear;
+}
+
+.pimg1{
+    background-image: url(https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+    min-height: 100%;
+}
+
+
+.pimg1, .pimg2{
+	position: relative;
+	opacity: 1;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	background-attachment: fixed;
+}
+
+/*Gallery text and Camera Picture*/
+#dark{
+    background-color: rgb(17, 17, 17);
+}
+
+#row1{
+    padding-top: 22%;
+    padding-left: 5%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+#row1 .col-lg-12 .display-1 {
+    color: #f4f4f4;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+#row1 .col-lg-12 .display-1 span{
+    letter-spacing: 15px;
+}
+/*Gallery Home page Ends here*/
+
+
+/*Mountain.png file at the bottom of starting Page*/
+.top-section-mountains{
+    position: absolute; 
+    bottom: 0%; left: 0%; 
+    width: 100%;
+}
+.top-section-mountains img{
+    max-width: 100%;
+    height: auto;
+    position: absolute; 
+    bottom: 0%;
+}
+
+/*Gallery Content Starts here*/
+
+
+.img-gallery{
+    font-family: Satisfy;
+    font-size:50px;
+    text-align:center;
+    color: #f4f4f4;
+    padding:1%;
+    padding-top: 90px;
+  }
+
+  h3{
+    font-family: Satisfy;
+    font-size:30px;
+    text-align:center;
+    color: #f4f4f4;
+    padding:1%;
+  }
+
+  /* hr tag Gradient transparent - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1.7px;
+    background-image: linear-gradient(to right, rgba(252, 79, 2, 0), rgba(252, 79, 2, 0.75), rgba(252, 79, 2, 0));
+    max-width: 45%;
+}
+
+
+  #gallery{
+      padding-top: 50px;
+    -webkit-column-count:4;
+    -moz-column-count:4;
+    column-count:4;
+    
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  @media (max-width:1200px){
+    #gallery{
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+      
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  }
+  @media (max-width:800px){
+    #gallery{
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+      
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  }
+  @media (max-width:600px){
+    #gallery{
+    -webkit-column-count:1;
+    -moz-column-count:1;
+    column-count:1;
+  }  
+  }
+  .card{
+    width:100%;
+    height:auto;
+    margin: 4% auto;
+    box-shadow:-3px 5px 15px #000;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .modal-img,.model-vid{
+    width:100%;
+    height:auto;
+  }
+  .modal-body{
+    padding:0px;
+  }
