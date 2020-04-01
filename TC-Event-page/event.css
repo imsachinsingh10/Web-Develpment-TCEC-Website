@@ -170,7 +170,7 @@ hr.style-two {
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0 14px 80px rgba(0, 0, 0, 0.2);
     display: flex;
-    align-itrems: center;
+    align-items: center;
     border-radius: 8px;
 }
 
@@ -393,3 +393,43 @@ hr.style-two {
     }
 }
 /*Dark Box Ends here*/
+
+
+/*Fixed buttons at right side*/
+#fixed-Btn {
+    position: fixed;
+    top: 25%;
+    right: -670px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #fixed-Btn button{
+    background: transparent;
+    cursor: pointer;
+    width: 80px;
+    height: 65px;
+    font-size: 26px;
+    background-color: #11111180;
+    border: 0px solid #11111180;
+    margin-top: 1px;
+    transition: all 0.3s;
+    
+  }
+  
+  #fixed-Btn button i{
+    color: white;
+    font-size: 18px;
+    padding-right: 11.5px;
+  }
+  
+  #fixed-Btn button:hover{
+    background-color: #00000080;
+    margin-right: 15px;
+    transition: all 0.3s;
+  }
+  #fixed-Btn button i:hover{
+    color: rgb(252, 79, 2);
+    transition: all 0.3s;
+  }

@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
   $("img").click(function(){
   var t = $(this).attr("src");
@@ -11,4 +12,6 @@ $("video").click(function(){
   $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
   $("#myModal").modal();  
 });
-});//EOF Document.ready
+});
+
+//EOF Document.ready

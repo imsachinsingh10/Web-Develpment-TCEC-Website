@@ -160,3 +160,30 @@ hr.style-two-s {
     transition: all 0.3s ease;
 }
 /* Submit Button ENDS here*/
+
+
+/*Scroll to Top btn text*/
+#topBtn-p{
+    position: fixed;
+    bottom: 90px;
+    right: 40px;
+    padding-bottom: 20px;
+    writing-mode: vertical-rl;
+    display: inline;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+}
+/*Scroll to Top btn text Ends here*/
+
+
+@media screen and (max-width: 600px) {
+    .footer .footer-content .footer-section {
+       /* width: 100%; */
+        font-size: 14px;
+        
+        padding: 20px;
+        
+    }
+}

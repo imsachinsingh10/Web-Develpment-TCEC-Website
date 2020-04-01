@@ -48,7 +48,7 @@ body, html{
 	background-position: center;
 	background-size: cover;
 
-	background-attachment: fixed;
+    background-attachment: fixed;
 }
 
 #row1{
@@ -80,4 +80,43 @@ body, html{
     padding-left: 2%;
     padding-right: 50%;
     letter-spacing: 1.5px;
+}
+
+/*Fixed buttons at right side*/
+#fixed-Btn {
+    position: fixed;
+    top: 27%;
+    right: -670px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+#fixed-Btn button{
+    background: transparent;
+    cursor: pointer;
+    width: 80px;
+    height: 65px;
+    font-size: 26px;
+    background-color: #11111180;
+    border: 0px solid #11111180;
+    margin-top: 1px;
+    transition: all 0.3s;
+    
+}
+
+#fixed-Btn button i{
+    color: white;
+    font-size: 18px;
+    padding-right: 11.5px;
+}
+
+#fixed-Btn button:hover{
+    background-color: #00000080;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+#fixed-Btn button i:hover{
+    color: rgb(252, 79, 2);
+    transition: all 0.3s;
 }
