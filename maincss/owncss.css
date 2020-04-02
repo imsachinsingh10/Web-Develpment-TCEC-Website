@@ -61,9 +61,10 @@ body, html{
 
 #row1 .col-lg-6 .display-5 {
     color: #F3BE0F;
-    margin-top: 25px;
+    margin-top: 45px;
+    font-family: 'Permanent Marker', cursive;
     padding-top: 3%;
-    font-weight: 700;
+    text-shadow: 0 14px 80px rgba(0, 0, 0, 0.2);
 }
 
 #row1 .col-lg-6 .display-5 span{
@@ -72,14 +73,14 @@ body, html{
 }
 
 #row1 .col-lg-6 .display-6{
-    color: #f4f4f4;
+    color: rgba(255, 255, 255, 0.6);
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 17px;
     padding-left: 2%;
     padding-right: 50%;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.25px;
 }
 
 /*Fixed buttons at right side*/
