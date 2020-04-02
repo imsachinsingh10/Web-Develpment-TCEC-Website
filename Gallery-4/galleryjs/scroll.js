@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     $(window).scroll(function(){
-        if($(this).scrollTop() > 1200){
+        if($(this).scrollTop() > 1500){
             $('#topBtn').fadeIn();
         } else {
             $('#topBtn').fadeOut();
@@ -18,7 +18,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
     $(window).scroll(function(){
-        if($(this).scrollTop() > 1600){
+        if($(this).scrollTop() > 1800){
             $('#topBtn-p').fadeIn();
         } else {
             $('#topBtn-p').fadeOut();

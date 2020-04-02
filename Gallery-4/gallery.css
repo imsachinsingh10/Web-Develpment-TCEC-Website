@@ -206,3 +206,38 @@ hr.style-two {
   color: rgb(252, 79, 2);
   transition: all 0.3s;
 }
+
+
+
+@media screen and (max-width: 1000px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -90%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -86%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -80%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
