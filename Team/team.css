@@ -221,6 +221,16 @@ hr.style-two {
         }
       }
 
+      @media screen and (max-width: 370px) {
+        .cunt {
+            margin-top: 40px;
+            position: relative;
+            width: 66vw;
+            height: 40vh;
+
+            justify-content: center;
+        }
+      }
 
 
 

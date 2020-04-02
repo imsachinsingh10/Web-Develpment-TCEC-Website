@@ -15,6 +15,30 @@
     padding-top: 30px;
 }
 
-.col-sm-2 img{
-    
+
+
+
+
+@media screen and (max-width: 1200px) {
+   .align-center{
+       margin: 10%;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+    .align-center{
+        margin: 15%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .align-center{
+        margin: 15%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .align-center{
+        margin: 15%;
+    }
 }
