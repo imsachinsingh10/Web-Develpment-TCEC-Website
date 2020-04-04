@@ -174,7 +174,7 @@ body, html{
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -90%;
+        right: -85%;
         float: right;
         display: flex;
         flex-direction: column;
@@ -191,7 +191,7 @@ body, html{
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -86%;
+        right: -83%;
         float: right;
         display: flex;
         flex-direction: column;
@@ -210,7 +210,7 @@ body, html{
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -80%;
+        right: -76%;
         float: right;
         display: flex;
         flex-direction: column;
