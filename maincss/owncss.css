@@ -35,7 +35,7 @@ body, html{
 }
 
 .pimg1{
-    background-image: url(pimg-1-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pimg-1-2.jpg);
     min-height: 100%;
 }
 /*pimg3 wasn't working here that's why i shifted it to count.css*/
@@ -63,6 +63,7 @@ body, html{
     color: #F3BE0F;
     margin-top: 45px;
     font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
     padding-top: 3%;
     text-shadow: 0 14px 80px rgba(0, 0, 0, 0.2);
 }
