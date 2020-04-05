@@ -229,6 +229,17 @@ hr.style-two {
       display: flex;
       flex-direction: column;
   }
+
+  #row1{
+    padding-top: 72%;
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+  #row1 .col-lg-12 .display-1{
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -239,5 +250,16 @@ hr.style-two {
       float: right;
       display: flex;
       flex-direction: column;
+  }
+
+  #row1{
+    padding-top: 72%;
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+  #row1 .col-lg-12 .display-1{
+    font-size: 50px;
   }
 }
