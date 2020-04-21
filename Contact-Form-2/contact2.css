@@ -184,3 +184,23 @@ a:hover{
     }
 
 }
+
+@media screen and (max-width: 378px) {
+    #col-lg-12 #contact-us-text{
+        padding: 45px;
+        text-align: justify;
+    }
+    .contact-fill{
+        width: 150%;
+        background: transparent;
+    }
+    .contact-message{
+        width: 150%;
+    }
+    .contact-dynamic {
+        align-items: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+}
