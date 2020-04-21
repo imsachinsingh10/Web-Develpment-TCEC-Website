@@ -332,7 +332,7 @@ hr.style-two {
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -80%;
+        right: -75%;
         float: right;
         display: flex;
         flex-direction: column;
