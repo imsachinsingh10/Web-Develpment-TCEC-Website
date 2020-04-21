@@ -65,7 +65,7 @@ img{
 
 /*Background Image*/
 .pimg1{
-    background-image: url(eventhome.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(eventhome.jpg);
     min-height: 100%;
 
 }
@@ -457,7 +457,18 @@ hr.style-two {
         display: flex;
         flex-direction: column;
     }
-  }
+
+    #row1{
+        padding-top: 72%;
+        
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    
+      #row1 .col-lg-12 .display-1{
+        font-size: 35px;
+      }
+    }
   
   @media screen and (max-width: 470px) {
     #fixed-Btn {
@@ -468,4 +479,15 @@ hr.style-two {
         display: flex;
         flex-direction: column;
     }
-  }
+    #row1{
+        padding-top: 72%;
+        
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    
+      #row1 .col-lg-12 .display-1{
+        font-size: 35px;
+      }
+    }
+  
