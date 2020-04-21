@@ -178,12 +178,37 @@ hr.style-two-s {
 /*Scroll to Top btn text Ends here*/
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
     .footer .footer-content .footer-section {
        /* width: 100%; */
-        font-size: 14px;
+        font-size: 12px;
         
         padding: 20px;
         
+    }
+
+    .footer .footer-content .about .social a {
+        padding-top: 6px;
+    }
+
+    ul {
+        padding-inline-start: 25px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer .footer-content .footer-section {
+       /* width: 100%; */
+        font-size: 12px;
+        
+        padding: 20px;
+        
+    }
+
+    .footer .footer-content .about .social a {
+        padding-top: 6px;
+    }
+
+    ul {
+        padding-inline-start: 25px;
     }
 }
