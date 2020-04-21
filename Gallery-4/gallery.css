@@ -29,7 +29,7 @@ body, html{
 }
 
 .pimg1{
-    background-image: url(https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+    background-image: url(background-1.jpg);
     min-height: 100%;
 }
 
@@ -166,3 +166,78 @@ hr.style-two {
   .modal-body{
     padding:0px;
   }
+
+
+/*Fixed buttons at right side*/
+#fixed-Btn {
+  position: fixed;
+  top: 25%;
+  right: -670px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+#fixed-Btn button{
+  background: transparent;
+  cursor: pointer;
+  width: 80px;
+  height: 65px;
+  font-size: 26px;
+  background-color: #11111180;
+  border: 0px solid #11111180;
+  margin-top: 1px;
+  transition: all 0.3s;
+  
+}
+
+#fixed-Btn button i{
+  color: white;
+  font-size: 18px;
+  padding-right: 11.5px;
+}
+
+#fixed-Btn button:hover{
+  background-color: #00000080;
+  margin-right: 15px;
+  transition: all 0.3s;
+}
+#fixed-Btn button i:hover{
+  color: rgb(252, 79, 2);
+  transition: all 0.3s;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -90%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -86%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -80%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}

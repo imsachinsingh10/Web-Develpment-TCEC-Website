@@ -107,6 +107,7 @@ input{
     padding-top: 10px;
     padding-bottom: 10px;
     color: rgba(252, 252, 252, 0.4);
+    text-align: justify;
 }
 
 .cinfo .fa-envelope, .fa-phone-square{
@@ -122,4 +123,20 @@ a{
 a:hover{
     color: rgb(252, 79, 2);
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    #col-lg-12 #contact-us-text{
+        padding: 25px;
+        text-align: justify;
+    }
+    .contact-fill{
+        width: 150%;
+        background: transparent;
+    }
+    .contact-message{
+        width: 150%;
+    }
+
 }

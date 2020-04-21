@@ -48,7 +48,7 @@ body, html{
 	background-position: center;
 	background-size: cover;
 
-	background-attachment: fixed;
+    background-attachment: fixed;
 }
 
 #row1{
@@ -80,4 +80,113 @@ body, html{
     padding-left: 2%;
     padding-right: 50%;
     letter-spacing: 1.5px;
+}
+
+/*Fixed buttons at right side*/
+#fixed-Btn {
+    position: fixed;
+    top: 27%;
+    right: -43.7%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+#fixed-Btn button{
+    background: transparent;
+    cursor: pointer;
+    width: 80px;
+    height: 65px;
+    font-size: 26px;
+    background-color: #11111180;
+    border: 0px solid #11111180;
+    margin-top: 1px;
+    transition: all 0.3s;
+    
+}
+
+#fixed-Btn button i{
+    color: white;
+    font-size: 18px;
+    padding-right: 11.5px;
+}
+
+#fixed-Btn button:hover{
+    background-color: #00000080;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+#fixed-Btn button i:hover{
+    color: rgb(252, 79, 2);
+    transition: all 0.3s;
+}
+/*Fixed Buttons End here*/
+
+/*2nd Row Starts here*/
+#row2{
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 42%;
+    padding-right: 45%;
+}
+
+#row2 .col-lg-12{
+    align-items: center;
+    
+}
+
+#row2 .col-lg-12 button{
+    width: 190px;
+    height: 55px;
+    cursor: pointer;
+    background: rgb(252, 79, 2);
+    border: 2px solid rgb(252, 79, 2);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#row2 .col-lg-12 button:hover{
+    background: black;
+    border: 2px solid rgb(252, 79, 2);
+}
+
+@media screen and (max-width: 1000px) {
+    #fixed-Btn {
+        position: fixed;
+        top: 27%;
+        right: -90%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #fixed-Btn {
+        position: fixed;
+        top: 27%;
+        right: -86%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #fixed-Btn {
+        position: fixed;
+        top: 27%;
+        right: -80%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #row2{
+        align-items: center;
+        padding-top: 5%;
+        padding-left: 31%;
+        padding-right: 45%;
+    }
 }

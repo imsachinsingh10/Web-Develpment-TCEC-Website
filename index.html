@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="flipbox.css">
     <link rel="stylesheet" type="text/css" href="Contact-Form-2/contact2.css">
     <link rel="stylesheet" type="text/css" href="maincss/footer.css">
+    <link rel="stylesheet" href="maincss/scroll.css">
 
     <!--jQuery Link for Couting-Up Numbers-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -89,15 +90,29 @@
           </div>
         </div>
 
-        <div class="row" id="row2">
+        <div class="row start" id="row2">
           <div class="col-lg-12">
-            <!--      <h5 class="display-5 d-flex justify-content-center">A BIT PATNA BASED CLUB</h5>     -->
+            <button><a class="start" href="#About">Get Started</a></button>
           </div>
         </div>
       </div>
       <!--If you want to add another row or column then do it here in this GRID SYSTEM-->
     </section>
   </section>
+
+
+
+  <!--Fixed Button at the right-->
+  <div class="row" >
+    <div id="fixed-Btn" class="col-lg-6 md-6 sm-6 xs-6">
+      <button><i class="fab fa-facebook-square"></i></button>
+      <button><i class="fab fa-instagram"></i></button>
+      <button><i class="fab fa-twitter"></i></button>
+      <button><i class="fab fa-linkedin"></i></button>
+      <button><i class="fab fa-youtube"></i></button>
+    </div>
+  </div>
+  <!--Fixed btn Ends here-->
 
 
 
@@ -292,16 +307,16 @@
           <div class="cardl middli">
             <div class="front">
               <div class="front-header">
-                  <img src="img1.jpg" alt="">
+                  <img src="maincss/Edu-Trip.jpg" alt="">
               </div>
               <div class="front-content" id="fontsize">
-                 <h2>Mentors</h2>
+                 <h2>Edu. Trip</h2>
               </div>
             </div>
             <div class="back">
                 <div class="back-content middli">
-                    <h2>Mentors</h2>
-                    <p>As a Mentor Dr. Ritesh Badhai has been our guide for the past years.</p>
+                    <h2>Edu. Trip</h2>
+                    <p>We make Learning interesting by giving everyone to go and explore.</p>
                     <div class="se">
                        <!--Below is Linkdin Button commented out-->
                        <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
@@ -318,16 +333,16 @@
           <div class="cardl middli">
             <div class="front">
               <div class="front-header">
-                  <img src="img1.jpg" alt="">
+                  <img src="maincss/Workshops.jpg" alt="">
               </div>
               <div class="front-content" id="fontsize">
-                 <h2>Mentors</h2>
+                 <h2>Workshops</h2>
               </div>
             </div>
             <div class="back">
                 <div class="back-content middli">
-                    <h2>Mentors</h2>
-                    <p>As a Mentor Dr. Ritesh Badhai has been our guide for the past years.</p>
+                    <h2>Workshops</h2>
+                    <p>We present very new and Innovative Techs and let you know about the working of it.</p>
                     <div class="se">
                        <!--Below is Linkdin Button commented out-->
                        <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
@@ -353,30 +368,31 @@
     <div class="middlie">
       <div class="counting-sec1">
           <div class="inner-width1">
-              <div class="colsm">
+            <div class="row">
+              <div class="colsm col-md-12 sm-12">
                   <i class="fas fa-users"></i>
                   <div class="num1">33</div>
                   Members
               </div>
 
-              <div class="colsm">
+              <div class="colsm col-md-12 sm-12">
                   <i class="fas fa-user-graduate"></i>
                   <div class="num1">15</div>
                   Alumni
               </div>
 
-              <div class="colsm">
+              <div class="colsm col-md-12 sm-12">
                   <i class="fas fa-calendar"></i>
                   <div class="num1">10</div>
                   Events
               </div>
 
-              <div class="colsm">
+              <div class="colsm col-md-12 sm-12">
                   <i class="fas fa-book-open"></i>
                   <div class="num1">4</div>
                   Research Papers
               </div>
-
+            </div>  
 
           </div>
       </div>
@@ -459,20 +475,21 @@
 
         </div>
 
-        <div class="col-lg-4 tab-full" style="margin-bottom: 10%">
+        <div class="col-lg-4 tab-full d-none d-md-block" style="margin-bottom: 10%">
 
             <h3 class="h6" style="color: white; margin-bottom: 15%">CONTACT INFO</h3>
 
             <div class="cinfo">
                 <h5 style="color: #fc4f02">Where to Find Us</h5>
                 <p>
-                    You can directly contact us or you can find us near ECE, Department.
+                  You can directly contact us or mail us from the contact section, 
+                  if you have any queries then you can also call us on the number given below.
                 </p>
             </div>
 
             <div class="cinfo">
                 <h5 style="color: #fc4f02">Harshit Naman</h5>
-                <p> CEO, Technical Club
+                <p> President, Technical Club
                     <br>
                     <i class="fas fa-envelope"></i> <a href="mailto:bitptechnical@gmail.com">bitptechnical@gmail.com</a><br>
                     <i class="fa fa-phone-square " aria-hidden="true"></i><a href="tel:+91-62071-46108">
@@ -504,11 +521,11 @@
   <div class="footer">
     <div class="footer-content">
 
-        <div class="footer-section about">
+        <div class="footer-section about col-md-12 sm-12 xs-12 ">
             <h1 class="logo-text">TECHNICAL <span>CLUB</span></h1>
             <p class="d-none d-lg-block">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facilis illum consequuntur, 
-                unde libero nihil numquam, molestiae expedita est dicta dolor exercitationem excepturi laudantium quis.
+              Our society aims at integrating expertise from multiple domains of engineering like Computer Science, Electronics, Electrical,
+              Mechanical Technologies and so more to fabricate the innovation that makes rightful changes to the Universe.
             </p>
             <div class="footer-contact">
                 <span><i class="fas fa-phone-square"></i><a href="tel:+91-62071-46108"> +91-62071-46108</a></span>
@@ -524,7 +541,7 @@
             </div>
         </div>
         
-        <div class="footer-section links">
+        <div class="footer-section links col-md-12 sm-12 xs-12 ">
             <h2>Quick Links</h2>
             <br>
             <ul>
@@ -536,7 +553,7 @@
             </ul>
         </div>
 
-        <div class="footer-section notification">
+        <div class="footer-section notification col-md-12 d-none d-lg-block ">
             <h2>Get Notification</h2>
             <br>
             <p>Stay Connected with us & help us with your suggestions</p>
@@ -546,17 +563,25 @@
                 <textarea class="text-input contact-input" placeholder="Your message" id="messageInputID" style="color: white; "></textarea>
                 <button id="contactSubmitButton1" class="btn-primary"><i class="fas fa-envelope"></i> Submit</button>
             </form>
+
+            <!--Scrollbtn text-->
+            <p id="topBtn-p">Move to the Top</p>
+
         </div>
     </div>
 
-    <div class="footer-bottom">
+    <div class="footer-bottom col-md-12 sm-12 xs-12 ">
         &copy; Made with <i class="fas fa-heart" style="color: rgb(252, 79, 2);"></i> | <a href="https://www.linkedin.com/in/sachin-kumar-singh-43447b152/" style="text-decoration: none; color: #686868;">Designed By Sachin Kumar Singh <i class="fab fa-linkedin"></i></a>
     </div>
   </div>
   <!--Section-8 Footer ENDS here-->
+  
+  <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
 
 
 
+  <!--JS files for Scroll to Top-->
+  <script src="mainjs/scroll.js"></script>
 
   <!--JS files for Counting-up NUMBERS-->
    <script src="mainjs/count.js"></script>
@@ -573,7 +598,7 @@
    <script src="mainjs/navbar1.js"></script>
 
   <!--JS and jQuery Links-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>

@@ -29,7 +29,7 @@ body, html{
     width: 100%;
 }
 
-.inner-width1{
+.inner-width1 .row{
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -52,4 +52,26 @@ body, html{
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .colsm {
+        flex: 1;
+        text-align: center;
+        padding-top: 40px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .colsm i{
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .num1{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
 }
