@@ -209,17 +209,27 @@ hr.style-two {
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   #fixed-Btn {
       position: fixed;
       top: 27%;
-      right: -90%;
+      right: -42%;
       float: right;
       display: flex;
       flex-direction: column;
   }
 }
 
+@media screen and (max-width: 1000px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -40.5%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
 @media screen and (max-width: 670px) {
   #fixed-Btn {
       position: fixed;
@@ -229,6 +239,17 @@ hr.style-two {
       display: flex;
       flex-direction: column;
   }
+}
+@media screen and (max-width: 470px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -76%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+
 
   #row1{
     padding-top: 72%;

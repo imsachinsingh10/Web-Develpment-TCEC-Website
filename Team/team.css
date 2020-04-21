@@ -192,8 +192,8 @@ hr.style-two {
         .cunt {
             margin-top: 40px;
             position: relative;
-            width: 36vw;
-            height: 46vh;
+            width: 20vw;
+            height: 30vh;
 
             justify-content: center;
         }
@@ -203,8 +203,8 @@ hr.style-two {
         .cunt {
             margin-top: 40px;
             position: relative;
-            width: 50vw;
-            height: 40vh;
+            width: 31vw;
+            height: 30vh;
 
             justify-content: center;
         }
@@ -214,8 +214,8 @@ hr.style-two {
         .cunt {
             margin-top: 40px;
             position: relative;
-            width: 56vw;
-            height: 40vh;
+            width: 54vw;
+            height: 30vh;
 
             justify-content: center;
         }
@@ -225,8 +225,8 @@ hr.style-two {
         .cunt {
             margin-top: 40px;
             position: relative;
-            width: 66vw;
-            height: 40vh;
+            width: 62vw;
+            height: 30vh;
 
             justify-content: center;
         }
@@ -305,12 +305,22 @@ hr.style-two {
   }
   
   
-  
+  @media screen and (max-width: 1200px) {
+    #fixed-Btn {
+        position: fixed;
+        top: 27%;
+        right: -42%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
   @media screen and (max-width: 1000px) {
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -90%;
+        right: -40.5%;
         float: right;
         display: flex;
         flex-direction: column;
@@ -332,7 +342,7 @@ hr.style-two {
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -80%;
+        right: -76%;
         float: right;
         display: flex;
         flex-direction: column;

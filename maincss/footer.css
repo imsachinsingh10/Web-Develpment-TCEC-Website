@@ -170,9 +170,15 @@ html, body{
         padding: 20px;
         
     }
+
+    .footer .footer-content .about .social a {
+        padding-top: 6px;
+    }
+
+    ul {
+        padding-inline-start: 25px;
+    }
 }
-
-
 @media screen and (max-width: 600px) {
     .footer .footer-content .footer-section {
        /* width: 100%; */
@@ -180,5 +186,13 @@ html, body{
         
         padding: 20px;
         
+    }
+
+    .footer .footer-content .about .social a {
+        padding-top: 6px;
+    }
+
+    ul {
+        padding-inline-start: 25px;
     }
 }
