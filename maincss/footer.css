@@ -207,7 +207,15 @@ html, body{
     }
 
     .footer .footer-content .about .social a {
+<<<<<<< HEAD
         padding-top: 7px;
+=======
+<<<<<<< HEAD
+        padding-top: 7px;
+=======
+        padding-top: 10px;
+>>>>>>> d8bcc6cd1915a79628d2bea2d6d55a0aebca2a00
+>>>>>>> 3ece39ad1b5535824b021d1a223e9cd588d239ab
     }
 
     ul {
