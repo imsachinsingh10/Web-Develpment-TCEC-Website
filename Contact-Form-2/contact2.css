@@ -137,6 +137,11 @@ a:hover{
     .contact-message{
         width: 100%;
     }
+    .contact-dynamic {
+        align-items: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 
 }
 
@@ -154,8 +159,8 @@ a:hover{
     }
     .contact-dynamic {
         align-items: center;
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
 }
