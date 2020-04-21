@@ -179,7 +179,7 @@ html, body{
         padding-inline-start: 25px;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     .footer .footer-content .footer-section {
        /* width: 100%; */
         font-size: 12px;
@@ -190,6 +190,24 @@ html, body{
 
     .footer .footer-content .about .social a {
         padding-top: 6px;
+    }
+
+    ul {
+        padding-inline-start: 25px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer .footer-content .footer-section {
+       /* width: 100%; */
+        font-size: 12px;
+        
+        padding: 20px;
+        
+    }
+
+    .footer .footer-content .about .social a {
+        padding-top: 7px;
     }
 
     ul {
