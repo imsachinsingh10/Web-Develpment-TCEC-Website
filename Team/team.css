@@ -305,12 +305,22 @@ hr.style-two {
   }
   
   
-  
+  @media screen and (max-width: 1200px) {
+    #fixed-Btn {
+        position: fixed;
+        top: 27%;
+        right: -42%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
   @media screen and (max-width: 1000px) {
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -90%;
+        right: -40.5%;
         float: right;
         display: flex;
         flex-direction: column;
@@ -332,7 +342,7 @@ hr.style-two {
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -75%;
+        right: -76%;
         float: right;
         display: flex;
         flex-direction: column;
