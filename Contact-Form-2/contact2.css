@@ -125,6 +125,20 @@ a:hover{
     text-decoration: none;
 }
 
+@media screen and (max-width: 1000px) {
+    #col-lg-12 #contact-us-text{
+        padding: 25px;
+        text-align: justify;
+    }
+    .contact-fill{
+        width: 100%;
+        background: transparent;
+    }
+    .contact-message{
+        width: 100%;
+    }
+
+}
 
 @media screen and (max-width: 768px) {
     #col-lg-12 #contact-us-text{
@@ -137,6 +151,31 @@ a:hover{
     }
     .contact-message{
         width: 150%;
+    }
+    .contact-dynamic {
+        align-items: center;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 478px) {
+    #col-lg-12 #contact-us-text{
+        padding: 45px;
+        text-align: justify;
+    }
+    .contact-fill{
+        width: 150%;
+        background: transparent;
+    }
+    .contact-message{
+        width: 150%;
+    }
+    .contact-dynamic {
+        align-items: center;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
 }

@@ -467,7 +467,7 @@ a span:nth-child(4) {
     #fixed-Btn {
         position: fixed;
         top: 27%;
-        right: -40.5%;
+        right: -89%;
         float: right;
         display: flex;
         flex-direction: column;
