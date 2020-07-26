@@ -241,7 +241,7 @@ h2::after {
   .card__svg {
     position: absolute;
     left: 0;
-    /*top: 36%;*/
+    top: 36%;
     width: inherit !important;
     }
     .middli {
