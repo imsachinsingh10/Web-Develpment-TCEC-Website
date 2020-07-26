@@ -7,14 +7,6 @@ body, html{
     line-height: 1.6;
 }
 
-#section-2-hr {
-    margin-bottom: 180px;
-}
-
-.flip-cont {
-    margin-bottom: -150px;
-}
-
 #padingl{
     padding-top: 40px;
     padding-left: 0;
@@ -29,7 +21,7 @@ body, html{
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, 0%);
 }
 
 .cardl{
@@ -109,6 +101,7 @@ body, html{
     text-align: center;
     width: 100%;
     font-size: 14px;
+    transform: translate(-50%, -50%);
 }
 .back-content h2{
     font-weight: 300;
