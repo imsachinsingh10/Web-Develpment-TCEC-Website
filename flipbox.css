@@ -244,6 +244,9 @@ h2::after {
     /*top: 36%;*/
     width: inherit !important;
     }
+    .middli {
+        transform: translate(-50%, -50%);
+    }
 }
 
   @media screen and (max-width: 370px) {
@@ -260,5 +263,8 @@ h2::after {
     left: 0;
     top: 20%;
     width: inherit !important;
+    }
+    .middli {
+        transform: translate(-50%, -50%);
     }  
 }
