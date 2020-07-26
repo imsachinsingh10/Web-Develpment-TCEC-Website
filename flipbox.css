@@ -203,6 +203,9 @@ h2::after {
         /*Earlier it was margin : auto; which is changed to given below for proper spacing*/
         margin-left: inherit;
         margin-top: 5%;
+
+        /*Later EDIT*/
+        transform: translate(-50%, -50%);
     }
     .card__svg {
         position: absolute;
