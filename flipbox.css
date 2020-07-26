@@ -7,9 +7,22 @@ body, html{
     line-height: 1.6;
 }
 
+#section-2-hr {
+    margin-bottom: 180px;
+}
+
+.flip-cont {
+    margin-bottom: -150px;
+}
+
 #padingl{
     padding-top: 40px;
     padding-left: 0;
+}
+
+.row {
+    margin-right: 15px;
+    justify-content: center;
 }
 
 .middli{

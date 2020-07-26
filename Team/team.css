@@ -49,6 +49,10 @@ body, html{
     background-color: rgb(17, 17, 17);
 }
 
+.row {
+  margin-right: 15px;
+}
+
 #row1{
     padding-top: 22%;
     padding-left: 5%;
