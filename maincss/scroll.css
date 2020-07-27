@@ -22,4 +22,5 @@ body, html{
     border: none;
     cursor: pointer;
     display: none;
+    outline: none;
 }
