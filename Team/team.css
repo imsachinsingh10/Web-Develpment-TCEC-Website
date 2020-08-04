@@ -271,42 +271,45 @@ hr.style-two {
 
 /*Fixed buttons at right side*/
 #fixed-Btn {
-    position: fixed;
-    top: 25%;
-    right: -670px;
-    float: right;
-    display: flex;
-    flex-direction: column;
-  }
+  position: fixed;
+  top: 27%;
+  right: -43.7%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#fixed-Btn a{
+  background: transparent;
+  cursor: pointer;
+  width: 80px;
+  height: 65px;
+  font-size: 26px;
+  background-color: #11111180;
+  border: 0px solid #11111180;
+  margin-top: 1px;
+  transition: all 0.3s;
   
-  #fixed-Btn button{
-    background: transparent;
-    cursor: pointer;
-    width: 80px;
-    height: 65px;
-    font-size: 26px;
-    background-color: #11111180;
-    border: 0px solid #11111180;
-    margin-top: 1px;
-    transition: all 0.3s;
-    
-  }
-  
-  #fixed-Btn button i{
-    color: white;
-    font-size: 18px;
-    padding-right: 11.5px;
-  }
-  
-  #fixed-Btn button:hover{
-    background-color: #00000080;
-    margin-right: 15px;
-    transition: all 0.3s;
-  }
-  #fixed-Btn button i:hover{
-    color: rgb(252, 79, 2);
-    transition: all 0.3s;
-  }
+}
+
+#fixed-Btn a i{
+  color: white;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-left: 29px;
+}
+
+#fixed-Btn a:hover{
+  background-color: #00000080;
+  margin-right: 15px;
+  transition: all 0.3s;
+}
+#fixed-Btn a i:hover{
+  color: rgb(252, 79, 2);
+  transition: all 0.3s;
+}
+/*Fixed Buttons End here*/
   
   
   @media screen and (max-width: 1200px) {

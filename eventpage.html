@@ -9,8 +9,11 @@
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-    <!-- Similar to that of bootstrap but a better version of that -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- FONTAWESOME Library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    
+    <!-- AOS.js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
     <!--Google Fonts-->
    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:500,700&display=swap" rel="stylesheet">
@@ -75,18 +78,18 @@
       <div class="container">
         <div class="row" id="row1">
           <div class="col-lg-12 md-12 sm-12 xs-12">
-              <h1 class="display-1"><i class="fas fa-calendar-week" ><span> </span>  Event Section</i></h1>
+              <h1 class="display-1" data-aos="fade-up" data-aos-duration="1500"><i class="fas fa-calendar-week" ><span> </span>  Event Section</i></h1>
           </div>
           <!--If you want to add a Column in row-1 then add it here-->
 
           <!--Fixed Button at the right-->
           <div class="row" >
-            <div id="fixed-Btn" class="col-lg-6 md-6 sm-6 xs-6">
-              <button><i class="fab fa-facebook-square"></i></button>
-              <button><i class="fab fa-instagram"></i></button>
-              <button><i class="fab fa-twitter"></i></button>
-              <button><i class="fab fa-linkedin"></i></button>
-              <button><i class="fab fa-youtube"></i></button>
+            <div id="fixed-Btn" class="col-lg-6 md-6 sm-6 xs-6" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">
+                <a href="https://www.facebook.com/bitptechnical"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/bitptechnical/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/company/14748147/"><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
             </div>
           </div>
           <!--Fixed btn Ends here-->
@@ -102,10 +105,13 @@
   <section id="dark" class="section-dark">
 
     
-    <h1 class="img-gallery">Events</h1><hr>
-    <hr class="style-two">
-    <h3>Last Event dated 26th, Feburary 2020</h3>
-    <hr class="style-two">
+    <h1 class="img-gallery" data-aos="fade-up">Events</h1><hr>
+    <div data-aos="fade-up" data-aos-delay="300">
+        <hr class="style-two">
+        <h3>Last Event dated 26th, Feburary 2020</h3>
+        <hr class="style-two">
+    </div>
+    
   </section>
 <!--Section-1 Ends here-->
 
@@ -115,7 +121,7 @@
 
     
     <!--event box-->
-        <div class="container">
+        <div class="container" data-aos="fade-right" data-aos-delay="350">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="blog-post">
@@ -144,7 +150,7 @@
 
 
     <!--event box DARK-->
-        <div class="container">
+        <div class="container" data-aos="fade-left" data-aos-delay="350">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="blog-post-dark">
@@ -173,7 +179,7 @@
 
 
     <!--event box-->
-    <div class="container">
+    <div class="container" data-aos="fade-right" data-aos-delay="350">
         <div class="row">
             <div class="col-lg-12">
                 <div class="blog-post">
@@ -202,7 +208,7 @@
 
 
     <!--event box DARK-->
-    <div class="container">
+    <div class="container" data-aos="fade-left" data-aos-delay="350">
         <div class="row">
             <div class="col-lg-12">
                 <div class="blog-post-dark">
@@ -252,10 +258,10 @@
                 <span><i class="fas fa-envelope"></i><a href="mailto:bitptechnical@gmail.com"> bitptechnical@gmail.com</a></span>
             </div>
             <div class="social">
-                <a href="#"> <i class="fab fa-facebook-square"></i></a>
-                <a href="#"> <i class="fab fa-instagram"></i></a>
-                <a href="#"> <i class="fab fa-twitter-square"></i></a>
-                <a href="#"> <i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/bitptechnical"> <i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/bitptechnical/?hl=en"> <i class="fab fa-instagram"></i></a>
+                <a href="#"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/company/14748147/"> <i class="fab fa-linkedin"></i></a>
                 
             </div>
         </div>
@@ -278,9 +284,9 @@
             <p>Stay Connected with us & help us with your suggestions</p>
             <br>
             <form action="index.html" method="post">
-                <input class="text-input contact-input" type="email" placeholder="Your Email" id="emailInputID" style="color: white; ">
-                <textarea class="text-input contact-input" placeholder="Your message" id="messageInputID" style="color: white; "></textarea>
-                <button id="contactSubmitButton1" class="btn-primary"><i class="fas fa-envelope"></i> Submit</button>
+                <input class="text-input contact-input" type="email" placeholder="Your Email" id="emailInputID" style="color: white; outline: none;">
+                <textarea class="text-input contact-input" placeholder="Your message" id="messageInputID" style="color: white; outline: none;"></textarea>
+                <button id="contactSubmitButton1" class="btn-primary" style="outline: none;"><i class="fas fa-envelope"></i> Submit</button>
             </form>
 
             <!--Scrollbtn text-->
@@ -304,6 +310,20 @@
 
     <!--JS files for Scroll to Top-->
     <script src="TC-Event-page/eventjs/scroll.js"></script>
+
+    <!--AOS.js Script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            //offset: 120, // offset (in px) from the original trigger point
+            delay: 100, // values from 0 to 3000, with step 50ms
+            duration: 850, // values from 0 to 3000, with step 50ms
+            //easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+        });
+    </script>
 
     <!--Github link for Smoothscrool Link-->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>

@@ -32,7 +32,7 @@ h2::after {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -50%);
 }
 
 .cardl{
