@@ -224,6 +224,12 @@ hr.style-two {
     color: rgba(252, 252, 252, 0.8);
 }
 
+.blog-post_author {
+    margin: 15px 0 20px;
+    text-transform: uppercase;
+    color: rgba(252, 79, 2, 1);
+}
+
 .blog-post_cta {
     display: inline-block;
     padding: 15px 30px;
@@ -339,7 +345,13 @@ hr.style-two {
 .blog-post-dark_text{
     margin-bottom: 30px;
     font-size: 14px;
-    color: (0, 0, 0, 0.7);
+    color: #111111;
+}
+
+.blog-post_author_dark {
+    margin: 15px 0 20px;
+    text-transform: uppercase;
+    color: rgb(252, 252, 252);
 }
 
 .blog-post-dark_cta {
