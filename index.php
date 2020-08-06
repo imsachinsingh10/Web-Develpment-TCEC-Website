@@ -1,3 +1,5 @@
+<?php include 'backend.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -499,25 +501,19 @@
     
     <div class="row contact-dynamic" style="background-color: #11111180;" data-aos="fade-up" data-aos-delay="400">
         <div class="col-lg-8 full-table">
-
+          <?php echo $alert; ?>
             <h3 class="h6" style="color: white;margin-bottom: 4%;">Send Us A Message</h3>
 
-            <form action="backend.php" method="post" name="form">
+            <form action="" method="post" class="contact">
                 <div>
-                    <input class="full-width contact-fill" type="text" placeholder="Your Name" id="nameInputID" style="color: white; outline: none;">
-                    <input class="full-width contact-fill" type="email" placeholder="Your Email" id="emailInputID" style="color: white; outline: none;">
-                    <input class="full-width contact-fill" type="text" placeholder="Subject" id="subjectInputID" style="color: white; outline: none;">
+                    <input class="full-width contact-fill" type="text" placeholder="Your Name" id="nameInputID" name="name" style="color: white; outline: none;">
+                    <input class="full-width contact-fill" type="email" placeholder="Your Email" id="emailInputID" name="email" style="color: white; outline: none;">
+                    <input class="full-width contact-fill" type="text" placeholder="Subject" id="subjectInputID" name="sub" style="color: white; outline: none;">
                 </div>
 
-                <textarea class="full-width contact-message" placeholder="Your message" id="messageInputID" style="color: white; outline: none;"></textarea>
+                <textarea class="full-width contact-message" placeholder="Your message" id="messageInputID" name="msg" style="color: white; outline: none;"></textarea>
 
-                <button id="contactSubmitButton" class="btn-primary">Submit</button>
-                
-                <!-- Comment section after submition of form -->
-                <div id="contactAfterSubmition" class="chatBox">
-                  <span>Thank you for your response</span>
-                </div>
-
+                <input type="submit" name="submit" class="btn-primary" value="Send">
             </form>
 
 
