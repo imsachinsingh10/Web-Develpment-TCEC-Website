@@ -6,7 +6,13 @@ body, html{
     font-weight: 700;
     line-height: 1.6;
 }
-
+svg {
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0px;
+    width: 100%;
+}
 .card__svg {
     position: absolute;
     left: 0;
