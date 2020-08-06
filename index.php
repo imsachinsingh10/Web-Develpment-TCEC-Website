@@ -1,5 +1,3 @@
-<?php include 'backend.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -501,7 +499,7 @@
     
     <div class="row contact-dynamic" style="background-color: #11111180;" data-aos="fade-up" data-aos-delay="400">
         <div class="col-lg-8 full-table">
-          <?php echo $alert; ?>
+          
             <h3 class="h6" style="color: white;margin-bottom: 4%;">Send Us A Message</h3>
 
             <form action="" method="post" class="contact">
