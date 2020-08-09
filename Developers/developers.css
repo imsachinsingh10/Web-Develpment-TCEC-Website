@@ -312,46 +312,77 @@ hr.style-two {
 /*Fixed Buttons End here*/
   
   
-  @media screen and (max-width: 1200px) {
-    #fixed-Btn {
-        position: fixed;
-        top: 27%;
-        right: -42%;
-        float: right;
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 1200px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -42%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -88%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
+@media screen and (max-width: 670px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -86%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+}
+@media screen and (max-width: 470px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -74%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  #row1{
+      padding-top: 72%;
+      
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+  }
+  
+    #row1 .col-lg-12 .display-1{
+      font-size: 35px;
     }
   }
 
-  @media screen and (max-width: 1000px) {
-    #fixed-Btn {
-        position: fixed;
-        top: 27%;
-        right: -40.5%;
-        float: right;
-        display: flex;
-        flex-direction: column;
-    }
+@media screen and (max-width: 470px) {
+  #fixed-Btn {
+      position: fixed;
+      top: 27%;
+      right: -80%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+  }
+  #row1{
+      padding-top: 72%;
+      
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
   }
   
-  @media screen and (max-width: 670px) {
-    #fixed-Btn {
-        position: fixed;
-        top: 27%;
-        right: -86%;
-        float: right;
-        display: flex;
-        flex-direction: column;
-    }
-  }
-  
-  @media screen and (max-width: 470px) {
-    #fixed-Btn {
-        position: fixed;
-        top: 27%;
-        right: -76%;
-        float: right;
-        display: flex;
-        flex-direction: column;
+    #row1 .col-lg-12 .display-1{
+      font-size: 35px;
     }
   }
