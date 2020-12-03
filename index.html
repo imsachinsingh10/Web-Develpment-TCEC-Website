@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Club</title>
+    <title>Technical Club | BIT Patna</title>
+    <meta name="description" content="Technical Club BIT Patna aims at integrating expertise from multiple domains of engineering like Computer Science, Electronics, Electrical,
+    Mechanical Technologies and so more to fabricate the innovation that makes rightful changes to the Universe.">
     <link rel="icon" type="image/png" href="logotitle.png">
 
     <!--Bootstrap CDN-->
@@ -36,6 +38,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v9.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="294855378128651"
+theme_color="#FC4F02"
+logged_in_greeting="Have specific questions? Let's get in touch!"
+logged_out_greeting="Have specific questions? Let's get in touch!">
+    </div>
     
 
 </head>
@@ -90,24 +119,24 @@
     <section id="index">
       <div class="container">
         <div class="row" id="row1" data-aos="fade-up" data-aos-duration="1500">
-          <div class="col-lg-6 md-12 d-none d-lg-block">
-              <img src="logo.png"  width="300" height="300" alt="">
-          </div>
           <div class="col-lg-6 md-12 mt-5">
+              <img src="Xordium-Home.png"  width="350" height="200" alt="">
+          </div>
+          <div class="col-lg-6 md-12 mt-5 d-none d-lg-block">
               <h1 class="display-5">TECHNICAL <span></span> CLUB</h1>
               <h5 class="display-6 d-flex justify-content-center">THE TECH SOC OF BITP</h5>
           </div>
         </div>
 
         <!--2nd Row-->
-        <div class="row start" id="row2" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500">
+        <div style="margin-top: 8.5%;" class="row start" id="row2" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500">
           <div class="col-lg-12">
-            <a class="start" href="#About">
+            <a class="start" href="eventpage.html">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-              Get Started
+              Xordium 2020
             </a>
           </div>
         </div>
@@ -121,11 +150,11 @@
   <!--Fixed Button at the right-->
   <div class="row" >
     <div id="fixed-Btn" class="col-lg-6 md-6 sm-6 xs-6" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1500">
-      <a href="https://www.facebook.com/bitptechnical"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.instagram.com/bitptechnical/?hl=en"><i class="fab fa-instagram"></i></a>
-      <a href=""><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/company/14748147/"><i class="fab fa-linkedin"></i></a>
-      <a href="https://www.youtube.com/channel/UCM8EriK9XQzAZGWJXufLHMw"><i class="fab fa-youtube"></i></a>
+      <a  href="https://www.facebook.com/bitptechnical"><i id="fbt" class="fab fa-facebook-square"></i></a>
+      <a  href="https://www.instagram.com/bitptechnical/?hl=en"><i id="igt" class="fab fa-instagram"></i></a>
+      <a  href=""><i id="ght" class="fab fa-github"></i></a>
+      <a  href="https://www.linkedin.com/company/14748147/"><i id="lkt" class="fab fa-linkedin"></i></a>
+      <a  href="https://www.youtube.com/channel/UCM8EriK9XQzAZGWJXufLHMw"><i id="ytt" class="fab fa-youtube"></i></a>
     </div>
   </div>
   <!--Fixed btn Ends here-->
@@ -505,11 +534,11 @@
           
             <h3 class="h6" style="color: white;margin-bottom: 4%;">Send Us A Message</h3>
 
-            <form action="" method="post" class="contact">
+            <form action="notification.php" method="post" class="contact">
                 <div>
                     <input class="full-width contact-fill" type="text" placeholder="Your Name" id="nameInputID" name="name" style="color: white; outline: none;">
                     <input class="full-width contact-fill" type="email" placeholder="Your Email" id="emailInputID" name="email" style="color: white; outline: none;">
-                    <input class="full-width contact-fill" type="text" placeholder="Subject" id="subjectInputID" name="sub" style="color: white; outline: none;">
+                    <input class="full-width contact-fill" type="text" placeholder="Subject" id="subjectInputID" name="subject" style="color: white; outline: none;">
                 </div>
 
                 <textarea class="full-width contact-message" placeholder="Your message" id="messageInputID" name="msg" style="color: white; outline: none;"></textarea>
@@ -578,13 +607,13 @@
             <div class="footer-contact">
                 <span><i class="fas fa-phone-square"></i><a href="tel:+91-62071-46108"> +91-62071-46108</a></span>
                 <!--here you can add <br> in place of display : block; (in css) -->
-                <span><i class="fas fa-envelope"></i><a href="mailto:bitptechnical@gmail.com"> bitptechnical@gmail.com</a></span>
+                <span><i class="fas fa-envelope"></i><a href="mailto:contact@bitptechnical.org.in"> contact@bitptechnical.org.in</a></span>
             </div>
             <div class="social">
-                <a href="https://www.facebook.com/bitptechnical"> <i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/bitptechnical/?hl=en"> <i class="fab fa-instagram"></i></a>
-                <a href="#"> <i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/company/14748147/"> <i class="fab fa-linkedin"></i></a>
+                <a id="fb" href="https://www.facebook.com/bitptechnical"> <i class="fab fa-facebook-square"></i></a>
+                <a id="ig" href="https://www.instagram.com/bitptechnical/?hl=en"> <i class="fab fa-instagram"></i></a>
+                <a id="gh" href="#"> <i class="fab fa-github"></i></a>
+                <a id="lk" href="https://www.linkedin.com/company/14748147/"> <i class="fab fa-linkedin"></i></a>
                 
             </div>
         </div>
@@ -608,8 +637,7 @@
             <br>
             <form action="index.html" method="post">
                 <input class="text-input contact-input" type="email" placeholder="Your Email" id="emailInputID" style="color: white; outline: none;">
-                <textarea class="text-input contact-input" placeholder="Your message" id="messageInputID" style="color: white; outline: none;"></textarea>
-                <button id="contactSubmitButton1" class="btn-primary" style="outline: none;"><i class="fas fa-envelope"></i> Submit</button>
+                <button id="contactSubmitButton1" class="btn-primary" style="outline: none;"><i class="fas fa-envelope"></i> Subscribe</button>
             </form>
 
             <!--Scrollbtn text-->
@@ -619,7 +647,7 @@
     </div>
 
     <div class="footer-bottom ">
-        &copy; Made with <i class="fas fa-heart" style="color: rgb(252, 79, 2);"></i> | <a href="https://www.linkedin.com/in/sachin-kumar-singh-43447b152/" style="text-decoration: none; color: #686868;">Designed By Sachin Kumar Singh <i class="fab fa-linkedin"></i></a>
+        &copy; Made with <i class="fas fa-heart" style="color: rgb(252, 79, 2);"></i> | <a href="https://www.linkedin.com/in/sachin-kumar-singh-43447b152/" style="text-decoration: none; color: #686868;">Designed By Sachin Kumar Singh &nbsp;<i class="fab fa-linkedin"></i></a>
     </div>
     <div class="btr-float">
         ::before
