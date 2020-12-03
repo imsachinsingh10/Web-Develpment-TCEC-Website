@@ -91,3 +91,35 @@ hr.style-two {
     max-width: 60%;
 }
 
+@media screen and (max-width: 1200px) {
+    hr.style-two {
+        border: 0;
+        height: 1.7px;
+        background-image: linear-gradient(to right, rgba(65, 105, 225, 0), rgba(65, 105, 225, 0.75), rgba(65, 105, 225, 0));
+        max-width: 80%;
+    }
+
+    #section-2-hr {
+        border: 0;
+        height: 1.02px;
+        background-image: linear-gradient(to right, rgba(252, 79, 2, 0), rgba(252, 79, 2, 0.75), rgba(252, 79, 2, 0));
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    hr.style-two {
+        border: 0;
+        height: 1.7px;
+        background-image: linear-gradient(to right, rgba(65, 105, 225, 0), rgba(65, 105, 225, 0.75), rgba(65, 105, 225, 0));
+        max-width: 80%;
+    }
+
+    #section-2-hr {
+        border: 0;
+        height: 1.02px;
+        background-image: linear-gradient(to right, rgba(252, 79, 2, 0), rgba(252, 79, 2, 0.75), rgba(252, 79, 2, 0));
+        max-width: 100%;
+    }
+}
+

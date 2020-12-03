@@ -1,3 +1,7 @@
+#sponsors {
+    height: 70vh;
+    background-color: white !important;
+}
 .section .display-4{
     padding-top: 25px;
     padding-bottom: 20px;
@@ -15,30 +19,65 @@
     padding-top: 30px;
 }
 
+.card-img-top {
+    width: 117px;
+    height: 117px;
+}
+
+#multi-item-example {
+    padding-top: 5%;
+}
+
 
 
 
 
 @media screen and (max-width: 1200px) {
-   .align-center{
-       margin: 10%;
-   }
+    #sponsors {
+        height: 40vh;
+    }
+    #section-6-hr {
+        border: 0;
+        height: 1.02px;
+        background-image: linear-gradient(to right, rgba(252, 79, 2, 0), rgba(252, 79, 2, 0.75), rgba(252, 79, 2, 0));
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-    .align-center{
-        margin: 15%;
+    #sponsors {
+        height: 50vh;
+    }
+
+    #multi-item-example {
+        padding-top: 10%;
     }
 }
 
 @media screen and (max-width: 670px) {
-    .align-center{
-        margin: 15%;
+    #sponsors {
+        height: 150vh;
+    }
+
+    #multi-item-example {
+        padding-top: 15%;
+        padding-left: 4%;
+    }
+
+    #section-6-hr {
+        border: 0;
+        height: 1.02px;
+        background-image: linear-gradient(to right, rgba(252, 79, 2, 0), rgba(252, 79, 2, 0.75), rgba(252, 79, 2, 0));
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 470px) {
-    .align-center{
-        margin: 15%;
+    #sponsors {
+        height: 150vh;
+    }
+
+    #multi-item-example {
+        padding-top: 15%;
     }
 }
