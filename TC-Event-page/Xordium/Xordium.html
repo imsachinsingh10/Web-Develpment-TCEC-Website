@@ -22,6 +22,34 @@
    <link rel="stylesheet" type="text/css" href="XorDium-event-2.css">
    <link rel="stylesheet" href="../../maincss/scrollbar.css">
    <link rel="stylesheet" type="text/css" href="../scroll.css">
+   
+   
+   <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v9.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="294855378128651"
+theme_color="#FC4F02"
+logged_in_greeting="Have specific questions? Let's get in touch!"
+logged_out_greeting="Have specific questions? Let's get in touch!">
+    </div>
 
 
 </head>
@@ -120,12 +148,10 @@
           <div class="leftBox" data-aos="fade-up" data-aos-delay="350">
               <div class="content">
                   <h1>XorDium Day 1</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero sapiente provident repudiandae, laboriosam voluptatum 
-                      cumque aperiam id molestiae sint minus perspiciatis asperiores delectus. Cupiditate distinctio laborum delectus, nisi excepturi
-                      facere hic, dolor sunt ullam quasi illo odio quaerat tenetur nam perspiciatis ut at harum voluptate! Fugit, veritatis corporis 
-                      et tenetur, sunt distinctio provident quam eveniet id odio, exercitationem dolorem harum dicta dolores nisi suscipit in voluptates 
-                      doloremque nihil. Fugiat voluptas veritatis deleniti eos at quo laborum animi esse deserunt totam sit aspernatur blanditiis officiis 
-                      quidem amet, repellendus iure molestiae provident doloribus veniam cupiditate repellat illo possimus saepe. Cupiditate, esse.</p>
+                  <p>Day 1 of Xordium will be solely given to the inaugural event Festivia which is introduced for the first time in Xordium,
+                      the main focus of the event will be to judge the technical skills of the students in the Web Development field through detailed
+                      design, Frontend, Backend and API's
+                  </p>
               </div>
           </div>
 
@@ -134,11 +160,11 @@
               <ul>
                   <li>
                       <div class="time">
-                          <h2>5<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
+                          <h2>22<span style="font-size: 14px;">nd</span><br><span>Jan</span></h2>
                       </div>
                       <div class="details">
-                          <h3>Festesia</h3>
-                          <p>This event solely focus on the Front-End Web Development. And it's theme is of a 'College Fest' and based on this theme you are suppose
+                          <h3>Festivia</h3>
+                          <p>This event focuses on the Web Development. And it's theme is of a 'College Fest' and based on this theme you are suppose
                               to Design a website section mentioned in the 'Work File'
                           </p>
                           <a href="#">Register Here</a>
@@ -146,9 +172,9 @@
                       <div style="clear: both;"></div>
                   </li>
 
-                  <li>
+                  <!-- <li>
                       <div class="time">
-                          <h2>5<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
+                          <h2>23<span style="font-size: 14px;">rd</span><br><span>Jan</span></h2>
                       </div>
                       <div class="details">
                           <h3>Eureka</h3>
@@ -161,7 +187,7 @@
 
                   <li>
                       <div class="time">
-                          <h2>5<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
+                          <h2>24<span style="font-size: 14px;">th</span><br><span>Jan</span></h2>
                       </div>
                       <div class="details">
                           <h3>E-Sports</h3>
@@ -170,7 +196,7 @@
                           <a href="#">Register Here</a>
                       </div>
                       <div style="clear: both;"></div>
-                  </li>
+                  </li> -->
               </ul>
           </div>
         </section>
@@ -184,12 +210,12 @@
           <div class="leftBox" data-aos="fade-up" data-aos-delay="350">
               <div class="content">
                   <h1>XorDium Day 2</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero sapiente provident repudiandae, laboriosam voluptatum 
-                      cumque aperiam id molestiae sint minus perspiciatis asperiores delectus. Cupiditate distinctio laborum delectus, nisi excepturi
-                      facere hic, dolor sunt ullam quasi illo odio quaerat tenetur nam perspiciatis ut at harum voluptate! Fugit, veritatis corporis 
-                      et tenetur, sunt distinctio provident quam eveniet id odio, exercitationem dolorem harum dicta dolores nisi suscipit in voluptates 
-                      doloremque nihil. Fugiat voluptas veritatis deleniti eos at quo laborum animi esse deserunt totam sit aspernatur blanditiis officiis 
-                      quidem amet, repellendus iure molestiae provident doloribus veniam cupiditate repellat illo possimus saepe. Cupiditate, esse.</p>
+                  <p>Day 2 of Xordium will be given to Festivia, Eureka and Engineers’ Paradise, in Engineers’ Paradise online simulation of various projects will be
+                      made by students on the assigned topics.
+                      <br>
+                      In Eureka Paper presentation will be done where studentswill be taught how to write a research paper, and an assignment will be given 
+                      where they will write a research paper on the topic of their own.
+                  </p>
               </div>
           </div>
 
@@ -198,10 +224,10 @@
               <ul>
                   <li>
                       <div class="time">
-                          <h2>6<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
+                          <h2>23<span style="font-size: 14px;">rd</span><br><span>Jan</span></h2>
                       </div>
                       <div class="details">
-                          <h3>Festesia</h3>
+                          <h3>Festivia</h3>
                           <p>This event solely focus on the Front-End Web Development. And it's theme is of a 'College Fest' and based on this theme you are suppose
                               to Design a website section mentioned in the 'Work File'
                           </p>
@@ -212,12 +238,13 @@
 
                   <li>
                       <div class="time">
-                          <h2>6<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
+                          <h2>23<span style="font-size: 14px;">rd</span><br><span>Jan</span></h2>
                       </div>
                       <div class="details">
                           <h3>Eureka</h3>
-                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut facilis deleniti soluta quisquam. Cupiditate, in? Commodi, quaerat! Quod sint,
-                              deleniti est excepturi cum, exercitationem odio quam at aut nam.</p>
+                          <p>Eureka is a Paper presentation where students will be taught to write a research paper, and an assignment will be given where 
+                              students are suppose to write a paper and judgement will be done on the basis of that paper.
+                          </p>
                           <a href="#">Register Here</a>
                       </div>
                       <div style="clear: both;"></div>
@@ -225,12 +252,12 @@
 
                   <li>
                       <div class="time">
-                          <h2>6<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
+                          <h2>23<span style="font-size: 14px;">rd</span><br><span>Jan</span></h2>
                       </div>
                       <div class="details">
-                          <h3>E-Sports</h3>
-                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut facilis deleniti soluta quisquam. Cupiditate, in? Commodi, quaerat! Quod sint,
-                              deleniti est excepturi cum, exercitationem odio quam at aut nam.</p>
+                          <h3>Engineers’ Paradise</h3>
+                          <p>Engineers’ Paradise will be an  online simulation event on various projects which will be assigned to students
+                            and marking will be done on the projects made by students on the assigned topics.</p>
                           <a href="#">Register Here</a>
                       </div>
                       <div style="clear: both;"></div>
@@ -248,12 +275,16 @@
           <div class="leftBox" data-aos="fade-up" data-aos-delay="350">
               <div class="content">
                   <h1>XorDium Day 3</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero sapiente provident repudiandae, laboriosam voluptatum 
-                      cumque aperiam id molestiae sint minus perspiciatis asperiores delectus. Cupiditate distinctio laborum delectus, nisi excepturi
-                      facere hic, dolor sunt ullam quasi illo odio quaerat tenetur nam perspiciatis ut at harum voluptate! Fugit, veritatis corporis 
-                      et tenetur, sunt distinctio provident quam eveniet id odio, exercitationem dolorem harum dicta dolores nisi suscipit in voluptates 
-                      doloremque nihil. Fugiat voluptas veritatis deleniti eos at quo laborum animi esse deserunt totam sit aspernatur blanditiis officiis 
-                      quidem amet, repellendus iure molestiae provident doloribus veniam cupiditate repellat illo possimus saepe. Cupiditate, esse.</p>
+                  <p>Now, we are at the end of three day long Technical Festival, so it must end with some fun and Motivation. Therefore, Technical Club
+                      presents you 
+                      <br>
+                      (1.) E-Sports
+                      <br>
+                      (2.) Aluminibes II
+                      <br>
+                      In E-sprots we will have a multiplayer battle like PUBG and CS-GO with our sponsors which will stream live on YouTube. Also, in
+                      Aluminibes II we will have one of our Alumni Shubham Agrawal who will guide you by sharing his experience.
+                  </p>
               </div>
           </div>
 
@@ -262,19 +293,21 @@
               <ul>
                   <li>
                       <div class="time">
-                          <h2>7<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
+                          <h2>24<span style="font-size: 14px;">th</span><br><span>Jan</span></h2>
                       </div>
                       <div class="details">
-                          <h3>Festesia</h3>
-                          <p>This event solely focus on the Front-End Web Development. And it's theme is of a 'College Fest' and based on this theme you are suppose
-                              to Design a website section mentioned in the 'Work File'
+                          <h3>E-Sports</h3>
+                          <p>A multiplayer battle should be there to have fun at the end of long technical season to refresh your mood. So, here we are with
+                              E-Sports for an amazing closing to Xordium. 
+                              <br>
+                              This event will be streamed LIVE on YouTube.
                           </p>
                           <a href="#">Register Here</a>
                       </div>
                       <div style="clear: both;"></div>
                   </li>
 
-                  <li>
+                  <!-- <li>
                       <div class="time">
                           <h2>7<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
                       </div>
@@ -285,17 +318,16 @@
                           <a href="#">Register Here</a>
                       </div>
                       <div style="clear: both;"></div>
-                  </li>
+                  </li> -->
 
                   <li>
                       <div class="time">
-                          <h2>7<span style="font-size: 14px;">th</span><br><span>Dec</span></h2>
+                          <h2>24<span style="font-size: 14px;">th</span><br><span>Jan</span></h2>
                       </div>
                       <div class="details">
-                          <h3>E-Sports</h3>
-                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut facilis deleniti soluta quisquam. Cupiditate, in? Commodi, quaerat! Quod sint,
-                              deleniti est excepturi cum, exercitationem odio quam at aut nam.</p>
-                          <a href="#">Register Here</a>
+                          <h3>Aluminibes II</h3>
+                          <p>We are with Aluminibes season 2 with another splendid guest and an Alumni of BIT Patna Shubham Agrawal from 2k10 batch. 
+                              He will be sharing his experience with us. So, please join us in the Webinar today.</a>
                       </div>
                       <div style="clear: both;"></div>
                   </li>

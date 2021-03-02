@@ -27,6 +27,34 @@
    <!--IMP FOR SCROLL TO TOP RESPONSE-->
    <!--Google jQuery-->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+   
+   <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v9.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="294855378128651"
+theme_color="#FC4F02"
+logged_in_greeting="Have specific questions? Let's get in touch!"
+logged_out_greeting="Have specific questions? Let's get in touch!">
+    </div>
 
 
 </head>
@@ -112,12 +140,55 @@
     <h1 class="img-gallery" data-aos="fade-up">Events</h1><hr>
     <div data-aos="fade-up" data-aos-delay="300">
         <hr class="style-two">
-        <h3>Upcoming Event 5th, December 2020</h3>
+        <h3>Upcoming Event 24th, January 2021</h3>
         <hr class="style-two">
     </div>
     
   </section>
 <!--Section-1 Ends here-->
+
+
+
+    <!--event box-10 (DARK)-->
+    <div class="container" data-aos="fade-right" data-aos-delay="350">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="blog-post">
+                    <div class="blog-post_img">
+                        <img src="TC-Event-page/posters/Aluminibes_2_Shubham_Agrawal.jpg" alt="">
+                    </div>
+                    <div class="blog-post_info">
+                        <div class="blog-post_date">
+                            <span>Sunday</span>
+                            <span>January 24 2021</span>
+                        </div>
+                        <h1 class="blog-post_title">Aluminibes 2021</h1>
+                        <p class="blog-post_text">
+                            Hello everyone we are back with Aluminibes season 2 with another splendid guest and an Alumni of BIT Patna 
+                            Shubham Agrawal from 2k10 batch. He will be sharing his experience with us. So, please join us in the Webinar today.
+                            <br>
+                            Technical Club of BIT Mesra, Patna brings to you a new event, ‘Aluminibes.’ In this, we give you a chance to interact with distinguished Alumni of our college and listen to their inspiring stories. They will not only tell you the know-how of exams, jobs but also tell you about their experiences and hardships.
+                            Our first guest is,
+                            <br>
+                            <a href="https://www.linkedin.com/in/agrawalshubham1729/" class="blog-post_author">Shubham Agrawal &nbsp;<i class="fab fa-linkedin"></i></a>
+                        </p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLoltUAt-xLjMT2pHD3odOxrHVc3M8-3fqwirht5UofiYfow/viewform" class="blog-post_cta">Register Here</a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END of event box (DARK)-->
+
+    
+    <div data-aos="fade-up" data-aos-delay="300">
+        <hr class="style-two">
+        <h3>Last Event dated 23th, January 2021</h3>
+        <hr class="style-two">
+    </div>
+    
+  </section>
+<!--Section-1-a Ends here-->
 
 
 
@@ -132,14 +203,22 @@
                     <div class="blog-post_info">
                         <div class="blog-post-dark_date">
                             <span>Saturday</span>
-                            <span>December 5 2020</span>
+                            <span>January 22, 23, 24 2021</span>
                         </div>
                         <h1 class="blog-post-dark_title">Xordium 2020</h1>
                         <p class="blog-post-dark_text">
-                            PrepBytes in association with Technical Club :Electronics and Communication Birla Institute of Technology Mesra (Patna Campus) is organizing an Online FREE WORKSHOP on "How to prepare for COMPETITIVE CODING and PLACEMENTS in IT/Software companies"
+                            XorDium is a Technical Festival for Innovative Engineers'. The main theme of Xordium is <strong>Engineers’ Paradise (Science Exhibition )</strong> and 
+                            <strong>Eureka! (PaperPresentation).</strong>
                             <br>
-                            This includes a LIVE CODING SESSION with industry expert from top global companies like Amazon and Samsung followed by Q&A session.
+                            But this time we are here with few new and exciting events like
                             <br>
+                            (1). Festesia for Web Development
+                            <br>
+                            (2). E-Sports
+                            <br>
+                            Also the winners will be awarded for their participation and every participant will get certification.
+                            The prize distribution ceremony will be held on 13th December.
+
                         </p>
                         <a href="TC-Event-page/Xordium/Xordium.html" class="blog-post-dark_cta">View All Events</a>    
                     </div>
@@ -148,16 +227,6 @@
         </div>
     </div>
     <!--END of event box (ORANGE) ENDS -->
-
-    
-    <div data-aos="fade-up" data-aos-delay="300">
-        <hr class="style-two">
-        <h3>Last Event dated 9th, August 2020</h3>
-        <hr class="style-two">
-    </div>
-    
-  </section>
-<!--Section-1-a Ends here-->
 
 
 
@@ -464,15 +533,14 @@
             </ul>
         </div>
 
-        <div class="footer-section notification d-none d-lg-block">
+        <div class="footer-section notification col-md-12 d-none d-lg-block ">
             <h2>Get Notification</h2>
             <br>
             <p>Stay Connected with us & help us with your suggestions</p>
             <br>
             <form action="index.html" method="post">
                 <input class="text-input contact-input" type="email" placeholder="Your Email" id="emailInputID" style="color: white; outline: none;">
-                <textarea class="text-input contact-input" placeholder="Your message" id="messageInputID" style="color: white; outline: none;"></textarea>
-                <button id="contactSubmitButton1" class="btn-primary" style="outline: none;"><i class="fas fa-envelope"></i> Submit</button>
+                <button id="contactSubmitButton1" class="btn-primary" style="outline: none;"><i class="fas fa-envelope"></i> Subscribe</button>
             </form>
 
             <!--Scrollbtn text-->

@@ -19,6 +19,11 @@
     padding-top: 30px;
 }
 
+.card {
+    display: inline-block;
+    border: none;
+}
+
 .card-img-top {
     width: 117px;
     height: 117px;
